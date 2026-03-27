@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace vansbeck07;
+namespace Vansbeck07;
 
 /**
  * Os Utilities class.

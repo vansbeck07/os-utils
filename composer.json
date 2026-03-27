@@ -1,28 +1,51 @@
 {
-    "name": "vanbeck07/os-utils",
+    "name": "vansbeck07/os-utils",
     "description": "Operating system utilities class",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Evans Owusu Ofori",
-            "email": "vanbeck07@gmail.com"
+            "email": "vansbeck07@gmail.com"
         }
     ],
     "minimum-stability": "stable",
     "require": {
         "php": "^8.3",
-        "vanbeck07/string-utils": "^0.0"
+        "vansbeck07/string-utils": "^0.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^12.0"
     },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "vansbeck07/string-utils",
+                "version": "0.0.2",
+                "source": {
+                    "url": "https://github.com/vansbeck07/php-string-utils.git",
+                    "type": "git",
+                    "reference": "475b6a11b709aa0284e2e4f7af7e3a354a725537"
+                },
+                "dist": {
+                    "url": "https://api.github.com/repos/vansbeck07/php-string-utils/zipball/475b6a11b709aa0284e2e4f7af7e3a354a725537",
+                    "type": "zip"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "vansbeck07\\": "src/"
+                    }
+                }
+            }
+        }
+    ],
     "config": {
         "optimize-autoloader": true
     },
     "autoload": {
         "psr-4": {
-            "Vanbeck07\\": "src/"
+            "vansbeck07\\": "src/"
         }
     },
     "autoload-dev": {

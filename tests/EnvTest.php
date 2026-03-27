@@ -3,7 +3,7 @@
 namespace Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
-use Vanbeck07\Os;
+use vansbeck07\Os;
 
 class EnvTest extends TestCase
 {

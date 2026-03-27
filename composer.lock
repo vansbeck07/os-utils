@@ -4,19 +4,19 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5a68c150b13c646886b00865cedb6b6d",
+    "content-hash": "e837bbaabea6b265eb381473f76c8e97",
     "packages": [
         {
-            "name": "vanbeck07/string-utils",
+            "name": "vansbeck07/string-utils",
             "version": "v0.0.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/vanbeck07/php-string-utils.git",
+                "url": "https://github.com/vansbeck07/php-string-utils.git",
                 "reference": "475b6a11b709aa0284e2e4f7af7e3a354a725537"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vanbeck07/php-string-utils/zipball/475b6a11b709aa0284e2e4f7af7e3a354a725537",
+                "url": "https://api.github.com/repos/vansbeck07/php-string-utils/zipball/475b6a11b709aa0284e2e4f7af7e3a354a725537",
                 "reference": "475b6a11b709aa0284e2e4f7af7e3a354a725537",
                 "shasum": ""
             },
@@ -26,7 +26,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Vanbeck07\\": "src/"
+                    "vansbeck07\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -36,13 +36,13 @@
             "authors": [
                 {
                     "name": "Evans Owusu Ofori",
-                    "email": "vanbeck07@gmail.com"
+                    "email": "vansbeck07@gmail.com"
                 }
             ],
             "description": "PHP string utility methods",
             "support": {
-                "issues": "https://github.com/vanbeck07/php-string-utils/issues",
-                "source": "https://github.com/vanbeck07/php-string-utils/tree/v0.0.2"
+                "issues": "https://github.com/vansbeck07/php-string-utils/issues",
+                "source": "https://github.com/vansbeck07/php-string-utils/tree/v0.0.2"
             },
             "time": "2020-10-22T11:43:25+00:00"
         }

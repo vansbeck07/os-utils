@@ -3,18 +3,18 @@
 /*
  * This file is part of the PHP OS Utils package.
  *
- * (c) Evans Owusu Ofori <vanbeck07@gmail.com>
+ * (c) Evans Owusu Ofori <vansbeck07@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Vanbeck07;
+namespace vansbeck07;
 
 /**
  * Os Utilities class.
  *
- * @author Evans Owusu Ofori <vanbeck07@gmail.com>
+ * @author Evans Owusu Ofori <vansbeck07@gmail.com>
  */
 class Os
 {
